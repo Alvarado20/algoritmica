@@ -1,35 +1,33 @@
-ul{
-    display: none;
-    text-align: right;
-  }
-  
-  input:checked  ~ ul{
-    display:block;
-    text-align: right;
-  }
-  input {
-    display: none;
-    text-align: right;
-   }
-   label {
-    text-align: right;
-    box-sizing: border-box;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-weight: bold;
-    text-align: center;
-    user-select: none;
-  }
-  li {
-    text-align: right;
-    display: block;
-    background: lightgrey;
-    margin: 0;
-    padding: 10px;
-    list-style: none;
-    border-bottom: 1px solid grey;
-  }
+*{
+  margin: 0;
+  padding: 0;
+}
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+      }
+
+      /* Estilos para el logo */
+      .logo {
+        width: 100px;
+        height: auto;
+      }
+
+      /* Estilos para el menú */
+      .menu {
+        display: flex;
+        gap: 1rem;
+      }
+
+      .menu-item {
+        list-style-type: none;
+      }
+
+      .menu-link {
+        color: #fff;
+        text-decoration: none;
+      }
