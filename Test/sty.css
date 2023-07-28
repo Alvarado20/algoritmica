@@ -1,35 +1,20 @@
-ul{
-    display: none;
-    text-align: right;
-  }
+.quad{
+  height: 200px;
+  width: 200px;
+  border: 1px solid white;
+  background-image: url();
+  background-image: url(../SRC/HD-wallpaper-blue-and-yellow-merge-gradient-sleek-black-yellow-simple-blue-blend-shiny.jpg);
+  border-radius: 15px;
+  align-items: center;
+  align-content: center;
   
-  input:checked  ~ ul{
-    display:block;
-    text-align: right;
-  }
-  input {
-    display: none;
-    text-align: right;
-   }
-   label {
-    text-align: right;
-    box-sizing: border-box;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-weight: bold;
-    text-align: center;
-    user-select: none;
-  }
-  li {
-    text-align: right;
-    display: block;
-    background: lightgrey;
-    margin: 0;
-    padding: 10px;
-    list-style: none;
-    border-bottom: 1px solid grey;
-  }
+}
+.circle{
+border: 1px solid white;
+background-color: white;
+border-radius: 100px;
+width: 100px;
+height: 100px;
+margin: 50px;
+
+}
